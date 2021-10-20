@@ -96,7 +96,7 @@ fun findItemsByType(query: String)LiveData<List<InventoryApiEntity>> {
 
 // 4. Find all items were purchased on 16 Januari 2020
 // input date "2021-01-16" as dateQuery
-fun findItemsByTags(dateQuery: String)LiveData<List<InventoryApiEntity>> {
+fun findItemsByDate(dateQuery: String)LiveData<List<InventoryApiEntity>> {
     val url = "data.json"
     val fixItems = MutableLiveData<List<InventoryApiEntity>>()
     val tempItems = ArrayList<InventoryApiEntity>()
