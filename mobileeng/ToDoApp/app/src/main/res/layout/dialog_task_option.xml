@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/btn_cancel"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="16dp"
+        app:tint="#ff9124"
+        android:src="@drawable/ic_cancel"/>
+
+    <TextView
+        android:id="@+id/detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/detail"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/soft_font_gray"
+        android:layout_marginHorizontal="16dp"/>
+
+    <TextView
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/edit"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/soft_font_gray"
+        android:layout_marginHorizontal="16dp"/>
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:text="@string/delete"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/soft_font_gray"
+        android:layout_marginHorizontal="16dp"/>
+</LinearLayout>

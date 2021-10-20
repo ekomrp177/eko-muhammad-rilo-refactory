@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">To Do App</string>
+    <string name="title_task">Task</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_add_task">Add Task</string>
+    <string name="new_task">New Task</string>
+    <string name="title">Title</string>
+    <string name="fill_title">Fill title</string>
+    <string name="description">Description</string>
+    <string name="fill_description">Fill description</string>
+    <string name="choose_date">Choose Date</string>
+    <string name="cancel">Cancel</string>
+    <string name="create_task">Create Task</string>
+    <string name="hello_kotlin">Hello, Kotlin!</string>
+    <string name="info_task">\? Task for Today</string>
+    <string name="date_sample">Mon, Oct 18 2021</string>
+    <string name="task_list">Task List</string>
+    <string name="example_initial">T</string>
+    <string name="strip">-</string>
+    <string name="completed">Completed</string>
+    <string name="icon">Icon</string>
+    <string name="_18">18</string>
+    <string name="sample">Sample</string>
+    <string name="detail">Detail</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="log_out">Log Out</string>
+    <string name="login">Login With</string>
+    <string name="facebook">Facebook</string>
+    <string name="google">Google</string>
+    <string name="start_time">Start Time</string>
+    <string name="no_task_today">No Task for Today</string>
+</resources>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="83dp"
+    android:fillViewport="true"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="8dp"
+        android:layout_marginEnd="8dp">
+
+        <TextView
+            android:id="@+id/tv_start_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:text="09.00"
+            android:textColor="#596279"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <FrameLayout
+            android:layout_width="6dp"
+            android:layout_height="1dp"
+            android:layout_alignStart="@id/tv_start_time"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/basic_gray"
+            android:text="@string/strip"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="8dp"
+        android:padding="5dp"
+        android:background="@drawable/background_radius_5dp"
+        android:backgroundTint="#dbe6ff"
+        android:layout_marginVertical="8dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/btn_menu"
+            android:layout_alignBottom="@+id/btn_menu"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:text="@string/sample"
+            android:textColor="@color/basic_color"
+            android:layout_toStartOf="@id/btn_menu" />
+
+        <ImageView
+            android:id="@+id/btn_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_option_menu"
+            app:tint="@color/soft_font_gray"
+            android:contentDescription="@string/icon" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textSize="12sp"
+            android:text="@string/sample"
+            android:textColor="@color/basic_color"
+            android:layout_toStartOf="@id/btn_menu" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginVertical="8dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:orientation="horizontal"
+            android:background="@drawable/background_radius_5dp"
+            android:backgroundTint="#feeaeb"
+            tools:ignore="UselessParent">
+            <ImageView
+                android:layout_width="13dp"
+                android:layout_height="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_check"
+                android:contentDescription="@string/icon"
+                app:tint="#fb3453" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/completed"
+                android:textColor="#fb3453"
+                android:layout_marginStart="8dp"
+                android:textSize="10sp"
+                tools:ignore="SmallSp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>
